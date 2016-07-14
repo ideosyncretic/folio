@@ -1,0 +1,62 @@
+html, body, ul, li {
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  color: midnightblue;
+}
+
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+ul, li {
+  display: inline;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  display: flex;
+  width: 200px;
+  text-align: left;
+}
+
+.thumbnail {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.label {
+  padding: 10px;
+}
